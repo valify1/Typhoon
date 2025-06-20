@@ -1,0 +1,8 @@
+inherit = "Aircrafts/Engines/DB605/ExB"
+wave = "Effects/Aircrafts/Engines/DB605/ExB4"
+cone_inner_angle = 30
+cone_outer_angle = 160
+cone_outer_gain = 0.4
+gain = 4.8
+inner_radius = 200
+outer_radius = 1200

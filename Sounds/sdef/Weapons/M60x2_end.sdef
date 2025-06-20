@@ -1,0 +1,4 @@
+wave = "Effects/Weapons/M60x2_end"
+inner_radius = 10
+outer_radius = 50
+gain = 1

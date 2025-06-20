@@ -1,0 +1,7 @@
+inner_radius = 50
+outer_radius = 150
+cone_inner_angle = 70
+cone_outer_angle = 30
+cone_outer_gain = 0.4
+direction = {1, 0, 0}
+release = 0.5

@@ -1,0 +1,5 @@
+wave = "Effects/Aircrafts/PlaneWindInL"
+position = {1.1, 0.0, -0.4}
+inner_radius = 20
+outer_radius = 150
+gain = 0.3

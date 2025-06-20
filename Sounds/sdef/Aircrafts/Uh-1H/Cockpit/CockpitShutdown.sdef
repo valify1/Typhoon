@@ -1,0 +1,5 @@
+wave = "Effects/Aircrafts/Uh-1H/Cockpit/Skullz_Custom_Cockpit_Rattle"
+listmode = ASR
+inner_radius = 75
+outer_radius = 150
+gain = .2

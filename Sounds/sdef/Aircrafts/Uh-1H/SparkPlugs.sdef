@@ -1,0 +1,4 @@
+wave = "Effects/Aircrafts/Uh-1H/Skullz_Custom_Startup"
+inner_radius = 12
+outer_radius = 800
+gain = .8

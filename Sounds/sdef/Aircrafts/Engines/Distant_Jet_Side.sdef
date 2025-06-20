@@ -1,0 +1,10 @@
+wave = "Effects/Aircrafts/Engines/Distant_Jet_Side"
+inner_radius = 500
+outer_radius = 1500
+cone_inner_angle = 1
+cone_outer_angle = 359
+cone_outer_gain = 0
+direction = {0, 0, -1}
+position = {-8, 0, 0}
+gain = 15
+pitch = 1

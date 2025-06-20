@@ -1,0 +1,9 @@
+wave = "Effects/Aircrafts/PlaneSpeedbrakeWind"
+inner_radius = 50
+outer_radius = 500
+cone_inner_angle = 60
+cone_outer_angle = 160
+cone_outer_gain = 0
+direction = {-1, 0, 0}
+gain = 0.5
+

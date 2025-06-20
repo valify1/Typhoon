@@ -1,0 +1,5 @@
+wave = {
+}
+gain = 1
+streaming = true
+listmode = SEQUENCE

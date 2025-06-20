@@ -1,0 +1,3 @@
+wave = "Effects/Aircrafts/Engines/APUBegin.wav"
+inner_radius = 10
+outer_radius = 200

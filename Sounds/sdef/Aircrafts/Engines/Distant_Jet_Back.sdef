@@ -1,0 +1,9 @@
+wave = "Effects/Aircrafts/Engines/Distant_Jet_Back"
+inner_radius = 500
+outer_radius = 3500
+cone_inner_angle = 40
+cone_outer_angle = 85
+cone_outer_gain = 0.05
+direction = {-1, 0, 0}
+position = {-20, 0, 0}
+gain = 20

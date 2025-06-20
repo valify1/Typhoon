@@ -1,0 +1,5 @@
+wave = "Effects/Weapons/minigunR_fire_end_IN"
+inner_radius = 10
+outer_radius = 25
+position = {0, 0, 10}
+gain = .15

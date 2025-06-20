@@ -1,0 +1,4 @@
+wave = "Effects/Aircrafts/PlaneSpeedbrakeWindIn"
+inner_radius = 20
+outer_radius = 150
+gain = 1

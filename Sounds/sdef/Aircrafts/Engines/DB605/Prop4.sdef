@@ -1,0 +1,9 @@
+inherit = "Aircrafts/Engines/DB605/Prop"
+wave = "Effects/Aircrafts/Engines/DB605/Prop4"
+inner_radius = 600
+outer_radius = 1600
+pitch = 0.8
+gain = 3.5
+attack = 2.0
+release = 20.0
+cone_outer_lowpass = 2000

@@ -1,0 +1,5 @@
+wave = "Effects/Aircrafts/Engines/DB605/Governor"
+inner_radius = 10
+outer_radius = 100
+release = 0.1
+gain = 0.15

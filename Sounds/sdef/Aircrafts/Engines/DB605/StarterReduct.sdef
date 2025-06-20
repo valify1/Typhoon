@@ -1,0 +1,6 @@
+wave = {"Effects/Aircrafts/Engines/DB605/StarterReduct","Effects/Aircrafts/Engines/DB605/StarterReduct3"}
+listmode = ASR
+inner_radius = 20
+outer_radius = 200
+gain = 1.2
+pitch = 0.92

@@ -1,0 +1,12 @@
+wave = "Effects/Aircrafts/Engines/Skullz_Custom_Tailrotor"
+inner_radius = 40
+outer_radius = 1000
+cone_inner_angle = 145
+cone_outer_angle = 200
+cone_outer_gain = .2
+direction = {-1, 0, 0}
+position = {-12.6, 7, 0}
+pitch = 1.1
+gain = 1.28
+
+

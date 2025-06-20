@@ -1,0 +1,4 @@
+wave = "Effects/Weapons/minigunL_dry_fire_end"
+inner_radius = 25
+outer_radius = 50
+gain = .5

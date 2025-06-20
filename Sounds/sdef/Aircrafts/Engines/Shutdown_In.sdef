@@ -1,0 +1,5 @@
+wave = "Effects/Aircrafts/Engines/Shutdown_In"
+inner_radius = 10
+outer_radius = 100
+release = 4
+gain = 3

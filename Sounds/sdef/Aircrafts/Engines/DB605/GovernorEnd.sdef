@@ -1,0 +1,2 @@
+inherit = "Aircrafts/Engines/DB605/Governor"
+wave = "Effects/Aircrafts/Engines/DB605/GovernorEnd"

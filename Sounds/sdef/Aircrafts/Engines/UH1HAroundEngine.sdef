@@ -1,0 +1,9 @@
+wave = {"Effects/Aircrafts/Engines/Skullz_Custom_Engine_START", "Effects/Aircrafts/Engines/Skullz_Custom_Engine"}
+listmode = ASR
+inner_radius = 20
+outer_radius = 200
+cone_inner_angle = 100
+cone_outer_angle = 200
+cone_outer_gain = 0.0001
+direction = {-1, 0, 0}
+gain = 2

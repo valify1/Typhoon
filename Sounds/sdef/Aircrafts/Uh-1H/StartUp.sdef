@@ -1,0 +1,5 @@
+wave = "Effects\Aircrafts\Uh-1H\Startup"
+inner_radius = 15
+outer_radius = 50
+outer_radius_gain = 0.1
+gain = .00000001

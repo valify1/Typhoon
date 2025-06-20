@@ -1,0 +1,3 @@
+wave = "Effects/Aircrafts/Cockpits/CockpitSystems"
+inner_radius = 1
+outer_radius = 100

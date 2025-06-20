@@ -1,0 +1,8 @@
+wave = {
+    "Effects/Weapons/MissileLaunch_1.wav",
+    "Effects/Weapons/MissileLaunch_2.wav",
+    "Effects/Weapons/MissileLaunch_3.wav",
+    }
+inner_radius = 20
+outer_radius = 550
+gain = 8

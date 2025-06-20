@@ -1,0 +1,6 @@
+inherit = "Aircrafts/Engines/DB605/ExS"
+wave = "Effects/Aircrafts/Engines/DB605/ExS2"
+gain = 3.0
+pitch = 0.95
+inner_radius = 100
+outer_radius = 300

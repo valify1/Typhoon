@@ -1,0 +1,5 @@
+inherit = "Aircrafts/Engines/HelicopterFan"
+wave = "Effects/Aircrafts/Engines/Skullz_Custom_MainRotor"
+inner_radius = 70
+outer_radius = 750
+gain = 2

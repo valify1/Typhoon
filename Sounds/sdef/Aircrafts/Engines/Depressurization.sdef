@@ -1,0 +1,6 @@
+wave = "Effects/Aircrafts/Depressurization"
+inner_radius = 10
+outer_radius = 100
+attack = 0.01
+release = 1
+gain = 1.5

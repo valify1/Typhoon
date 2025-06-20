@@ -1,0 +1,5 @@
+wave = "Effects/Aircrafts/Engines/UH1HAroundCompressor"
+inner_radius = 25
+outer_radius = 100
+outer_radius_gain = .001
+gain = .5

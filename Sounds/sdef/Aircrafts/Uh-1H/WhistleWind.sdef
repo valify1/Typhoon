@@ -1,0 +1,10 @@
+wave = "Effects/Aircrafts/Uh-1H/Skullz_Custom_Distant_Engine"
+inner_radius = 200
+outer_radius = 1300
+cone_inner_angle = 110
+cone_outer_angle = 180
+cone_outer_gain = .175
+direction = {-1, 0, 0}
+position = {2, 0, 0}
+pitch = 1.176
+gain = 3.75

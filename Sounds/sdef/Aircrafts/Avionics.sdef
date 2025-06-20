@@ -1,0 +1,5 @@
+wave = "Effects/Aircrafts/Avionics"
+inner_radius = 1
+outer_radius = 10
+release = 0.3
+gain = 0.16

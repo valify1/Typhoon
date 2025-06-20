@@ -1,0 +1,4 @@
+wave = "Effects/Weapons/MissileEngine"
+inner_radius = 50
+outer_radius = 300
+gain = .003

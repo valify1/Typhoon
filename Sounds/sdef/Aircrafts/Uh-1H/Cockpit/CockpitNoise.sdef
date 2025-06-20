@@ -1,0 +1,5 @@
+wave = "Effects/Aircrafts/Uh-1H/Cockpit/Skullz_Custom_Cockpit_Noise"
+inner_radius = 10
+outer_radius = 100
+pitch = .73
+gain = .35

@@ -1,0 +1,5 @@
+inherit = "Effects/Aircrafts/Engines/APU_Main_In"
+wave = "Effects/Aircrafts/Engines/APU_End_In"
+attack = 0.05
+release = 10
+gain = 0.7

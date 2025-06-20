@@ -1,0 +1,4 @@
+inner_radius = 200
+outer_radius = 3000
+release = 2
+gain = 0.9

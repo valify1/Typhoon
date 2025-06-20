@@ -1,0 +1,5 @@
+wave = "Effects/Aircrafts/Engines/APUBeginIn"
+inner_radius = 100
+outer_radius = 200
+gain = 0.15
+position = {0.0, 0.0, 0.0}

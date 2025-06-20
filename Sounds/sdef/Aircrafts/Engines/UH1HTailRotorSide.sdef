@@ -1,0 +1,10 @@
+inherit = "Aircrafts/Engines/HelicopterFan"
+wave = "Effects/Aircrafts/Engines/Skullz_Custom_Distant_Slap"
+inner_radius = 600
+outer_radius = 3200
+cone_inner_angle = 45
+cone_outer_angle = 90
+cone_outer_gain = .01
+direction = {1, 0, 0}
+position = {15, 5, 0}
+gain = .95

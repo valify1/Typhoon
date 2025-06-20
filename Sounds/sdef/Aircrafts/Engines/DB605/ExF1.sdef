@@ -1,0 +1,4 @@
+inherit = "Aircrafts/Engines/DB605/ExF"
+wave = "Effects/Aircrafts/Engines/DB605/ExF1"
+gain = 3.0
+pitch = 1.1

@@ -1,0 +1,4 @@
+wave = "Effects/Aircrafts/Engines/DB605/Shutdown"
+inner_radius = 200
+outer_radius = 3000
+gain = 0.85

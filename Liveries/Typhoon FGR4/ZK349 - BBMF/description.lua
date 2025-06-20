@@ -1,0 +1,35 @@
+livery = {
+	{"EF2000_01", DIFFUSE ,"EF2000_01", false};
+	{"EF2000_01", ROUGHNESS_METALLIC ,"EF2000_01_RoughMet",false};
+	{"EF2000_02", DIFFUSE ,"EF2000_02", false};
+	{"EF2000_02", ROUGHNESS_METALLIC ,"EF2000_02_RoughMet",false};
+	{"EF2000_03", DIFFUSE ,"EF2000_03", false};
+	{"EF2000_03", ROUGHNESS_METALLIC ,"EF2000_03_RoughMet",false};
+	{"EF2000_04", DIFFUSE ,"EF2000_04", false};
+	{"EF2000_04", ROUGHNESS_METALLIC ,"EF2000_04_RoughMet",false};
+	{"EF2000_05", DIFFUSE ,"EF2000_05", false};
+	{"EF2000_05", ROUGHNESS_METALLIC ,"EF2000_05_RoughMet",false};
+	{"EF2000_06", DIFFUSE ,"EF2000_06", false};
+	{"EF2000_06", ROUGHNESS_METALLIC ,"EF2000_06_RoughMet",false};
+	{"EF2000_07", DIFFUSE ,"EF2000_07", false};
+	{"EF2000_07", ROUGHNESS_METALLIC ,"EF2000_07_RoughMet",false};
+	{"EF2000_08", DIFFUSE ,"EF2000_08", false};
+	{"EF2000_08", ROUGHNESS_METALLIC ,"EF2000_08_RoughMet",false};
+	{"EF2000_09", DIFFUSE ,"EF2000_09", false};
+	{"EF2000_09", ROUGHNESS_METALLIC ,"EF2000_09_RoughMet",false};
+	{"EF2000_10", DIFFUSE ,"EF2000_10", false};
+	{"EF2000_10", ROUGHNESS_METALLIC ,"EF2000_10_RoughMet",false};
+	{"EF2000_11", DIFFUSE ,"EF2000_11", false};
+	{"EF2000_11", ROUGHNESS_METALLIC ,"EF2000_11_RoughMet",false};
+	{"EF2000_12", DIFFUSE ,"EF2000_12", false};
+	{"EF2000_12", ROUGHNESS_METALLIC ,"EF2000_12_RoughMet",false};
+	{"EF2000_13", DIFFUSE ,"EF2000_13", false};
+	{"EF2000_14", DIFFUSE ,"EF2000_14", false};
+	{"EF2000_15", DIFFUSE ,"EF2000_15", false};
+
+	{"pilot_EF2000_mk10", DIFFUSE ,"pilot_EF2000_mk10", false};
+	
+}
+name = "ZK349 - Typhoon Display Team BBMF Livery"
+countries = {"UK"}
+

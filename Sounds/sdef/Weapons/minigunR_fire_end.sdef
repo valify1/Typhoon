@@ -1,0 +1,4 @@
+wave = "Effects/Weapons/minigunR_fire_end"
+inner_radius = 20
+outer_radius = 300
+gain = .35

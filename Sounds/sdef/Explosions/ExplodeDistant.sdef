@@ -1,0 +1,12 @@
+wave = {
+    "Effects/Explosions/ExplodeDistant_1.wav",
+    "Effects/Explosions/ExplodeDistant_2.wav",
+    "Effects/Explosions/ExplodeDistant_3.wav",
+    "Effects/Explosions/ExplodeDistant_4.wav",
+    }
+inner_radius = 4000	
+outer_radius = 6000
+gain = .4
+pitch_random = 0.1
+gain_random = 0.15
+detached = true

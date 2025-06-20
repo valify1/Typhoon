@@ -1,0 +1,6 @@
+wave = "Effects/Aircrafts/Engines/DB605/StarterSpin1"
+inner_radius = 10
+outer_radius = 150
+release = 1
+attack = 0.6
+gain = 0.55

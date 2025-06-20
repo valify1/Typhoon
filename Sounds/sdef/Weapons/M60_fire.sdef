@@ -1,0 +1,4 @@
+wave = "Effects/Weapons/M60_fire"
+inner_radius = 10
+outer_radius = 500
+gain = 6

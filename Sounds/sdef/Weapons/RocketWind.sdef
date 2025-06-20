@@ -1,0 +1,4 @@
+wave = "Effects/Weapons/RocketWind"
+inner_radius = 50
+outer_radius = 1250
+gain = 0.0003

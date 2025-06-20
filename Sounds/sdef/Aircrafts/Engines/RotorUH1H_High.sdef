@@ -1,0 +1,5 @@
+inherit = "Aircrafts/Engines/HelicopterFan"
+wave = "Effects/Aircrafts/Engines/Skullz_Custom_Rotor_Whistle"
+inner_radius = 6.5
+outer_radius = 27
+gain = 1.65
