@@ -23,7 +23,7 @@ local FGR4 =  {
 	shape_table_data 	= 
 	{
 		{
-			file  		= "Typhoon FGR4";
+			file  		= "Typhoon_FGR4";
 			username	= "Typhoon FGR4";
 			index		= WSTYPE_PLACEHOLDER;
 			life		= 20; -- прочность объекта (методом lifebar*) -- The strength of the object (ie. lifebar *)
@@ -314,9 +314,7 @@ local FGR4 =  {
 		}, -- end of [1]
 	}, -- end of crew_members
 	
-	effects_presets = {
-	{effect = "OVERWING_VAPOR", file = current_mod_path.."/Effects/FGR4_overwingVapor.lua"},
-	},
+	
 
 	mechanimations = {
 		Door0 = {
