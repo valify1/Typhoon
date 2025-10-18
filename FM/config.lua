@@ -1,7 +1,7 @@
 -- BEGIN -- this part of the file is not intended for an end-user editing
 --[[ --------------------------------------------------------------- ]]--
 
-F22A = {
+FGR4 = {
 --center_of_mass		= {-0.172  ,  -0.6,	   0},--x,y,z
 --moment_of_inertia 	= {38912  ,254758,223845,-705},--Ix,Iy,Iz,Ixy
 center_of_mass        = {-0.29  ,  -0.6,       0},--x,y,z
@@ -10,14 +10,14 @@ suspension 			= {
 	  { -- NOSE WHEEL
 		  self_attitude     = true,
 		  --amortizer_min_length     = 0.0,
-		  amortizer_max_length     = 0.43,
-		  amortizer_basic_length     = 0.43,
-		  amortizer_spring_force_factor   = 990000.0, -- force = spring_force_factor * pow(reduce_length, amortizer_spring_force_factor_rate
-		  amortizer_spring_force_factor_rate  = 2,
-		  amortizer_static_force     = 47500.0,
-		  amortizer_reduce_length     = 0.43,
-		  amortizer_direct_damper_force_factor = 50000,
-		  amortizer_back_damper_force_factor  = 60000,
+		  	amortizer_max_length                     = 0.60,
+			amortizer_basic_length                   = 0.60,
+			amortizer_spring_force_factor            = 2500000.0,
+			amortizer_spring_force_factor_rate       = 2,
+			amortizer_static_force                   = 120000.0,
+			amortizer_reduce_length                  = 0.60,
+			amortizer_direct_damper_force_factor     = 100000,
+			amortizer_back_damper_force_factor       = 120000,
 
 		  anti_skid_installed = false,
 

@@ -7,16 +7,16 @@ dirName	  	 = current_mod_path,
 displayName  = _("EF-2000"),
 developerName = _("Virtual Typhoon Display Team"),
 
-fileMenuName = _("EF-2000"),
+fileMenuName = _("Typhoon FGR4"),
 update_id        = "EF-2000",
 version		 = "EA",
 state		 = "installed",
-info		 = _("EF-2000 Mod for the Virtual Typhoon Display Team, DO NOT REDISTRIBUTE!"),
+info		 = _("Private Typhoon Mod for the Virtual Typhoon Display Team. This is not a public release and is not intended for public use. Please do not share this mod outside of the VTDT group. Thank you for respecting the work and effort put into this project."),
 
 Skins	=
 	{
 		{
-		    name	= _("Typhoon FGR4"),
+		    name	= _(" Typhoon FGR4"),
 			dir		= "Skins/1"
 		},
 	},
@@ -52,7 +52,7 @@ mount_vfs_liveries_path (current_mod_path.."/Liveries")
 mount_vfs_texture_path	(current_mod_path.."/Skins/1/ME")--for simulator loading window
 
 dofile(current_mod_path.."/Views.lua")
-dofile(current_mod_path..'/Weapons/Weapons.lua')
+dofile(current_mod_path..'/Weapons/Loadout.lua')
 dofile(current_mod_path..'/FGR4.lua')
 
 -------------------------------------------------------------------------------------

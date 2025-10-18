@@ -236,7 +236,7 @@ local FGR4 =  {
 	length		=	15.96,
 	height		=	5.28,
 
-	flaps_maneuver			=	0.5,
+	flaps_maneuver			=	0.0,
 	stores_number			=	10,
 	has_afteburner			=	true,
 	has_speedbrake			=	true,
@@ -254,10 +254,10 @@ local FGR4 =  {
 
 
 	tand_gear_max								=	3.73,
-	nose_gear_pos								= 	{2.522,	-2.176,	0},
+	nose_gear_pos								= 	{2.522,	-2.226,	0},
 	nose_gear_amortizer_direct_stroke			= 	0,			-- down from nose_gear_pos !!!
 	nose_gear_amortizer_reversal_stroke			= 	-0.181,		-- up
-	nose_gear_amortizer_normal_weight_stroke	= 	-0.139,	-- down from nose_gear_pos
+	nose_gear_amortizer_normal_weight_stroke	= 	-0.02,	-- down from nose_gear_pos
 	nose_gear_wheel_diameter					=	0.5385,
 	nose_gear_door_close_after_retract			=	false,
 
@@ -277,12 +277,12 @@ local FGR4 =  {
             pos = 	{-6.751,	0.067,	-0.705},
             elevation					= 0,
             diameter					= 0.8,
-            exhaust_length_ab			= 4,
-            exhaust_length_ab_K			= 1.4,
+            exhaust_length_ab			= 5,
+            exhaust_length_ab_K			= 1.2,
 			afterburner_circles_count	= 4,
 			afterburner_circles_pos		= {0.2, 0.8},
-			afterburner_circles_scale	= 1.0,
-			afterburner_effect_texture	= "afterburner_F-15E_SE",
+			afterburner_circles_scale	= 1.00,
+			afterburner_effect_texture	= "FGR4_afterburner",
             smokiness_level				= 0.2, 
         }, -- end of [1]
         [2] = 
@@ -290,12 +290,12 @@ local FGR4 =  {
             pos = 	{-6.751,	0.067,	0.705},
             elevation					= 0,
             diameter					= 0.8,
-            exhaust_length_ab			= 4,
-            exhaust_length_ab_K			= 1.4,
+            exhaust_length_ab			= 5,
+            exhaust_length_ab_K			= 1.2,
 			afterburner_circles_count	= 4,
 			afterburner_circles_pos		= {0.2, 0.8},
-			afterburner_circles_scale	= 1.0,
-			afterburner_effect_texture	= "afterburner_F-15E_SE",
+			afterburner_circles_scale	= 1.00,
+			afterburner_effect_texture	= "FGR4_afterburner",
             smokiness_level				=  0.2, 
         }, -- end of [2]
 	}, -- end of engines_nozzles
@@ -366,10 +366,9 @@ local FGR4 =  {
 		[11] = 	{-7.728,	0.039,	-0.5},
 	}, -- end of fires_pos
 	
-	--[[ effects_presets = {
-		{effect = "APU_STARTUP_BLAST", preset = "F18", ttl = 3.0},
-		{effect = "OVERWING_VAPOR", file = current_mod_path.."/Effects/FA-18C_overwingVapor.lua"},
-	}, ]]
+	--effects_presets = {
+		--{effect = "OVERWING_VAPOR", file = current_mod_path.."/Effects/FGR4_overwingVapor.lua"},
+	--},
 	chaff_flare_dispenser = 
 	{
 		[1] = 
@@ -546,140 +545,116 @@ local FGR4 =  {
 	},
 	
 	SFM_Data = {
-		aerodynamics = 
-		{
-			Cy0	=	0,
-			Mzalfa	=	6,
-			Mzalfadt	=	1.2,
-			kjx	=	2.0,
-			kjz	=	0.017,
-			Czbe	=	-0.016,
-			cx_gear	=	0.0268,
-			cx_flap	=	0.05,
-			cy_flap	=	0.52,
-			cx_brk	=	0.06,
-			table_data = 
-			{
-				--		M		Cx0					Cya					B					B4					Omxmax	Aldop				Cymax
-			[1] =	{0,		0.0165,				0.07,				0.25,				0.032,				0.5,	60,					2.1},
-			[2] =	{0.2,	0.0165,				0.07,				0.25,				0.032,				1.5,	60,					2.1},
-			[3] =	{0.4,	0.0165,				0.066,				0.25,				0.032,				2.5,	60,					2.1},
-			[4] =	{0.6,	0.0165,				0.06,				0.25,				0.043,				3.6,	60,					2.1},
-			[5] =	{0.7,	0.017,				0.0575,				0.25,				0.045,				3.6,	45,	2.15},
-			[6] =	{0.8,	0.024,				0.055,				0.25,				0.052,				3.6,	43,	2.2},
-			[7] =	{0.9,	0.041,				0.0525,				0.25,				0.058,				3.6,	40,					2.25},
-			[8] =	{1,		0.062,				0.05,				0.2,				0.1,				3.6,	35,	2.3},
-			[9] =	{1.05,	0.061,				0.0475,				0.3,				0.095,				3.6,	35,					2.35},
-			[10] =	{1.1,	0.06,				0.0455,				0.4,				0.09,				3.4,	33,					2.4},
-			[11] =	{1.2,	0.051,				0.0425,				0.45,				0.12,				2.7,	32,					2.35},
-			[12] =	{1.3,	0.046,				0.04,				0.45,				0.17,				2,		31,					2.3},
-			[13] =	{1.49,	0.044,				0.0375,				0.45,				0.2,				1.5125,	30,				2.25},
-			[14] =	{1.5,	0.043903225806452,	0.0355,				0.452,				0.2058064516129,	1.5,	27,					2.2},
-			[15] =	{1.7,	0.041967741935484,	0.0325,				0.45,				0.32193548387097,	1.2,	26,					2.1},
-			[16] =	{1.8,	0.041,				0.03,				0.45,				0.38,				1.2,	25,				2.0},
-			[17] =	{2,		0.042,				0.0275,				0.45,				2.5,				1.2,	23,				1.9},
-			[18] =	{2.2,	0.041,				0.0255,				0.45,				3.2,				1.2,	22,					1.85},
-			[19] =	{2.5,	0.039,				0.0225,				0.45,				4.5,				1.2,	20,					1.8},
-			[20] =	{3.9,	0.035,				0.02,				0.5,				6,					1.2,	20,					1.75},
-			}, -- end of table_data
-			-- M - Mach number
-			-- Cx0 - Coefficient, drag, profile, of the airplane
-			-- Cya - Normal force coefficient of the wing and body of the aircraft in the normal direction to that of flight. Inversely proportional to the available G-loading at any Mach value. (lower the Cya value, higher G available) per 1 degree AOA
-			-- B - Polar quad coeff
-			-- B4 - Polar 4th power coeff
-			-- Omxmax - roll rate, rad/s
-			-- Aldop - Alfadop Max AOA at current M - departure threshold
-			-- Cymax - Coefficient, lift, maximum possible (ignores other calculations if current Cy > Cymax)
-		}, -- end of aerodynamics
-		engine =
-		{
-			Nmg		=	60,
-			MinRUD	=	0,
-			MaxRUD	=	1,
-			MaksRUD	=	0.85,
-			ForsRUD	=	0.91,
-			type	=	"TurboFan",
-			hMaxEng	=	16.76,
-			dcx_eng	=	0.0125,
-			cemax	=	1.2,
-			cefor	=	2.8,
-			dpdh_m	=	6200,
-			dpdh_f	=	9500,
-			table_data =
-			{
-				[1] =	{0,	107000,	170000},
-				[2] =	{0.2,	104000,	189000},
-				[3] =	{0.4,	104000,	189500},
-				[4] =	{0.6,	115000,	190000},
-				[5] =	{0.7,	115000,	195000},
-				[6] =	{0.8,	120000,	198000},
-				[7] =	{0.9,	140000,	200000},
-				[8] =	{1,		100000,	210000},
-				[9] =	{1.096,	96000,	210000},
-				[10] =	{1.2,	86000,	210000},
-				[11] =	{1.3,	68000,	210000},
-				[12] =	{1.4,	55000,	216000},
-				[13] =	{1.6,	56000,	226000},
-				[14] =	{1.8,	56000,	236000},
-				[15] =	{2.2,	52000,	246000},
-				[16] =	{2.35,	43000,	256000},
-				[17] =	{3.9,	25000,	200000},
-			}, -- end of table_data
-		}, -- end of engine
-	},
+    aerodynamics = {
+        Cy0 = 0,
+        Mzalfa = 5.8,  -- slightly less pitch moment slope (smoother pitch)
+        Mzalfadt = 1.1,
+        kjx = 2.1,
+        kjz = 0.018,
+        Czbe = -0.016,
+        cx_gear = 0.0268,
+        cx_flap = 0.05,
+        cy_flap = 0.40,
+        cx_brk = 0.06,
+
+        table_data = {
+            --   M      Cx0      Cya     B     B4     Omxmax  Aldop  Cymax
+            [1] =  {0.0, 0.016,  0.065,  0.25, 0.032, 0.8,   60, 1.9},
+            [2] =  {0.2, 0.016,  0.065,  0.25, 0.032, 1.5,   60, 1.9},
+            [3] =  {0.4, 0.016,  0.062,  0.25, 0.034, 2.2,   55, 1.9},
+            [4] =  {0.6, 0.017,  0.058,  0.25, 0.040, 3.0,   50, 1.85},
+            [5] =  {0.7, 0.018,  0.055,  0.25, 0.045, 3.3,   45, 1.8},
+            [6] =  {0.8, 0.022,  0.053,  0.25, 0.050, 3.4,   43, 1.75},
+            [7] =  {0.9, 0.035,  0.050,  0.25, 0.055, 3.4,   40, 1.7},
+            [8] =  {1.0, 0.055,  0.048,  0.20, 0.085, 3.2,   35, 1.6},
+            [9] =  {1.1, 0.058,  0.045,  0.35, 0.090, 3.0,   33, 1.55},
+            [10] = {1.2, 0.052,  0.043,  0.40, 0.100, 2.8,   32, 1.5},
+            [11] = {1.3, 0.048,  0.040,  0.45, 0.130, 2.5,   31, 1.45},
+            [12] = {1.5, 0.045,  0.037,  0.45, 0.180, 2.0,   28, 1.4},
+            [13] = {1.7, 0.043,  0.034,  0.45, 0.260, 1.7,   26, 1.3},
+            [14] = {1.9, 0.042,  0.031,  0.45, 0.350, 1.4,   25, 1.25},
+            [15] = {2.2, 0.041,  0.028,  0.45, 0.450, 1.2,   23, 1.2},
+            [16] = {2.5, 0.040,  0.025,  0.45, 0.500, 1.1,   22, 1.15},
+            [17] = {3.0, 0.039,  0.022,  0.45, 0.600, 1.0,   20, 1.1},
+            [18] = {3.9, 0.037,  0.020,  0.50, 0.700, 0.9,   20, 1.05},
+        },
+    },
+
+    engine = {
+        Nmg = 60,
+        MinRUD = 0,
+        MaxRUD = 1,
+        MaksRUD = 0.85,
+        ForsRUD = 0.91,
+        type = "TurboFan",
+        hMaxEng = 17.0,
+        dcx_eng = 0.012,
+        cemax = 1.25,
+        cefor = 2.9,
+        dpdh_m = 6200,
+        dpdh_f = 9500,
+
+        table_data = {
+            [1] =  {0.0, 107000, 175000},
+            [2] =  {0.2, 106000, 182000},
+            [3] =  {0.4, 106000, 188000},
+            [4] =  {0.6, 115000, 195000},
+            [5] =  {0.8, 120000, 200000},
+            [6] =  {1.0, 100000, 210000},
+            [7] =  {1.3, 85000, 215000},
+            [8] =  {1.8, 65000, 230000},
+            [9] =  {2.2, 52000, 240000},
+            [10] = {2.5, 45000, 245000},
+            [11] = {3.0, 35000, 230000},
+            [12] = {3.9, 25000, 200000},
+        }, -- end of table_data
+    }, -- end of engine
+}, -- end SFM_Data
 	
-	lights_data =
-	{
-		typename =	"collection",
-		lights 	 = 
-		{
-			[WOLALIGHT_STROBES]	= {
-				typename	=	"collection",
-				lights 		= {
-					{ typename = "argnatostrobelight", argument = 193, period = 1.2},		-- beacon lights
-				},
-			},--must be collection
-			[WOLALIGHT_LANDING_LIGHTS]	= {
-				typename	= 	"collection",
-				lights		= {
-					{ typename  = "argumentlight",	argument  = 210, },
-				},
-			},--must be collection
-			[WOLALIGHT_TAXI_LIGHTS]	= {
-				typename	= 	"collection",
-				lights		= {
-					{ typename  = "argumentlight",	argument  = 210, },
-				},
-			},--must be collection
-			[WOLALIGHT_NAVLIGHTS]	= {
-				typename 	= "collection",
-				lights 		= {
-					{ typename  = "argumentlight", argument  = 190, },				-- red
-					{ typename  = "argumentlight", argument  = 191, },				-- green
-					{ typename  = "argumentlight", argument  = 192, },				-- white
-				},
-			},--must be collection
-			[WOLALIGHT_FORMATION_LIGHTS] = {
-				typename	= "collection",
-				lights		= {
-					{ typename  = "argumentlight",	argument  = 88, },
-				},		-- green bars
-			},--must be collection
-			-- REFUEL
-			[WOLALIGHT_REFUEL_LIGHTS] = {
-				typename = "collection",
-				lights	 = {
-					{ typename = "argumentlight",	argument = 212, },				-- AR light
-				},
+	lights_data = {
+		typename = "collection",
+		lights = {
+			-- STROBES
+			[WOLALIGHT_STROBES] = { 
+					typename = "collection",
+					lights = {	
+						{typename = "natostrobelight", argument = 193, period = 1.2, phase_shift = 0, color = {0.9, 1.0, 0.7, 0.4}, connector = "BANO_0_BACK"},
+						--{typename = "argnatostrobelight", argument = 193, period = 1.2, phase_shift = 0, color = {0.9, 1.0, 0.7, 0.4}, connector = "BANO_0_BACK"},
+					}
 			},
-			[WOLALIGHT_CABIN_NIGHT] = {
-				typename = "collection",
-				lights = {
-					{ typename = "argumentlight", argument = 69, },
-				},
+			-- SPOTS -- LANDING LIGHTS AND TAXI LIGHTS ARE SWAPPED TO FIT THE GRIPEN SETUP
+			[WOLALIGHT_LANDING_LIGHTS] = { 
+					typename = "collection",
+					lights = {
+						{ typename  = "argumentlight",	argument  = 209, },
+					},
 			},
-		}, -- end of lights
-	},-- end of lights_data
+			[WOLALIGHT_TAXI_LIGHTS] = { 
+					typename = "collection",
+					lights = {
+						{ typename  = "argumentlight",	argument  = 208, },
+					},
+			},
+			-- NAVLIGHTS
+			[WOLALIGHT_NAVLIGHTS]	= {	
+					typename = "collection", -- nav_lights_default
+					lights = {
+						{typename = "argumentlight",argument = 190}, -- Left Position(red)
+						{typename = "argumentlight",argument = 191}, -- Right Position(green)
+						{typename = "argumentlight",argument = 192}, -- Tail Position white)
+					},
+			},
+			-- FORMATION
+			[WOLALIGHT_FORMATION_LIGHTS] = { 
+					typename = "collection",
+					lights = {
+						{typename  = "argumentlight" ,argument  = 200,},--formation_lights_tail_1 = 200;
+					},
+			},
+	[WOLALIGHT_REFUEL_LIGHTS]	= {},-- REFUEL
+	[WOLALIGHT_BEACONS]	= {},-- STROBE / ANTI-COLLISION
+	[WOLALIGHT_CABIN_NIGHT]	= {},--
+	}},
 	
 	ColdStartDefaultControls = {
         [19]     = 1.0,        -- [15] = Canards
